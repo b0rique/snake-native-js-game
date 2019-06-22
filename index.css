@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    background-color: #2e2e2e;
+}
+canvas{
+    display: block;
+    margin: 0 auto;
+}
+#game {
+    padding: 3rem;
+    text-align: center
+}
+#game h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+    
+}
+#game h2 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: #dfe6e9;
+    font-size: 20px;
+}
+.gameText {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: #dfe6e9;
+    font-size: 20px;
+}
+.gameOver{
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: #f54646;
+    font-size: 20px;
+}
+.gameWinText{
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: #f5b846;
+    font-size: 20px;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 1s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+    opacity: 0;
+  }
+.hat{
+    width: 35;
+}
